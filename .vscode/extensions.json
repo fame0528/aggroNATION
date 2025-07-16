@@ -1,0 +1,13 @@
+{
+  // Recommended VS Code extensions for best practices
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "GitHub.copilot",
+    "eamodio.gitlens",
+    "formulahendry.auto-rename-tag",
+    "coenraads.bracket-pair-colorizer-2",
+    "rangav.vscode-thunder-client",
+    "stylelint.vscode-stylelint"
+  ]
+}

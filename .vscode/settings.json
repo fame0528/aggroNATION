@@ -1,0 +1,17 @@
+{
+  // Enforce Prettier and ESLint for formatting and linting
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "eslint.validate": ["javascript", "typescript", "typescriptreact"],
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "accessibility.signals.editsKept": {
+    "announcement": "off"
+  },
+  "editor.accessibilitySupport": "off",
+  "editor.screenReaderAnnounceInlineSuggestion": false,
+  "accessibility.signals.editsUndone": {
+    "announcement": "off"
+  }
+}

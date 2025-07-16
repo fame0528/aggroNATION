@@ -1,0 +1,282 @@
+// Add comprehensive companies and tools datasets for enhanced context
+export const COMPREHENSIVE_AI_COMPANIES = [
+  {
+    id: 1,
+    name: 'OpenAI',
+    description: 'AI research and deployment company.',
+    website: 'https://openai.com',
+    founded: 2015,
+    employees: 1000,
+    headquarters: 'San Francisco, CA, USA',
+    logo: '/placeholder-logo.png',
+    tags: ['LLM', 'Research', 'API', 'Generative AI'],
+  },
+  {
+    id: 2,
+    name: 'Google DeepMind',
+    description: 'AI research lab and subsidiary of Alphabet.',
+    website: 'https://deepmind.com',
+    founded: 2010,
+    employees: 2000,
+    headquarters: 'London, UK',
+    logo: '/placeholder-logo.png',
+    tags: ['Research', 'Reinforcement Learning', 'Protein Folding'],
+  },
+  {
+    id: 3,
+    name: 'Anthropic',
+    description: 'AI safety and research company.',
+    website: 'https://www.anthropic.com',
+    founded: 2021,
+    employees: 300,
+    headquarters: 'San Francisco, CA, USA',
+    logo: '/placeholder-logo.png',
+    tags: ['LLM', 'AI Safety', 'Research'],
+  },
+];
+
+export const COMPREHENSIVE_AI_TOOLS = [
+  {
+    id: 1,
+    name: 'ChatGPT',
+    description: 'Conversational AI assistant by OpenAI.',
+    website: 'https://chat.openai.com',
+    category: 'LLM',
+    tags: ['chatbot', 'conversational', 'openai', 'gpt'],
+    logo: '/placeholder-logo.png',
+  },
+  {
+    id: 2,
+    name: 'Hugging Face Transformers',
+    description: 'Open-source library for state-of-the-art NLP models.',
+    website: 'https://huggingface.co/transformers',
+    category: 'NLP',
+    tags: ['transformers', 'nlp', 'huggingface'],
+    logo: '/placeholder-logo.png',
+  },
+  {
+    id: 3,
+    name: 'Stable Diffusion',
+    description: 'Text-to-image diffusion model.',
+    website: 'https://stability.ai',
+    category: 'Generative AI',
+    tags: ['diffusion', 'image', 'stabilityai'],
+    logo: '/placeholder-logo.png',
+  },
+];
+// Comprehensive AI datasets for fallback data
+// Removed static companies, tools, research papers, and repos datasets. Use real API only if needed.
+
+export const COMPREHENSIVE_AI_MODELS = [
+  {
+    id: 'microsoft/DialoGPT-medium',
+    modelId: 'microsoft/DialoGPT-medium',
+    author: 'microsoft',
+    downloads: 2500000,
+    likes: 1200,
+    tags: ['conversational', 'pytorch', 'gpt2'],
+    pipeline_tag: 'text-generation',
+    library_name: 'transformers',
+    created_at: '2020-05-01T00:00:00Z',
+    lastModified: '2024-01-10T15:30:00Z',
+    categories: ['Text Generation', 'Conversational AI'],
+    detailed_description:
+      'A large-scale pretrained dialogue response generation model for multiturn conversations.',
+  },
+  {
+    id: 'openai/whisper-large-v3',
+    modelId: 'openai/whisper-large-v3',
+    author: 'openai',
+    downloads: 5000000,
+    likes: 3500,
+    tags: ['audio', 'automatic-speech-recognition', 'whisper'],
+    pipeline_tag: 'automatic-speech-recognition',
+    library_name: 'transformers',
+    created_at: '2023-11-01T00:00:00Z',
+    lastModified: '2024-01-12T09:20:00Z',
+    categories: ['Speech Recognition', 'Audio'],
+    detailed_description:
+      'Whisper is a general-purpose speech recognition model trained on diverse audio data.',
+  },
+  {
+    id: 'stabilityai/stable-diffusion-xl-base-1.0',
+    modelId: 'stabilityai/stable-diffusion-xl-base-1.0',
+    author: 'stabilityai',
+    downloads: 8000000,
+    likes: 4200,
+    tags: ['text-to-image', 'stable-diffusion', 'diffusers'],
+    pipeline_tag: 'text-to-image',
+    library_name: 'diffusers',
+    created_at: '2023-07-26T00:00:00Z',
+    lastModified: '2024-01-08T14:45:00Z',
+    categories: ['Image Generation', 'Generative AI'],
+    detailed_description: 'SDXL consists of an ensemble of experts pipeline for latent diffusion.',
+  },
+  {
+    id: 'meta-llama/Llama-2-7b-chat-hf',
+    modelId: 'meta-llama/Llama-2-7b-chat-hf',
+    author: 'meta-llama',
+    downloads: 12000000,
+    likes: 8500,
+    tags: ['llama-2', 'text-generation', 'conversational'],
+    pipeline_tag: 'text-generation',
+    library_name: 'transformers',
+    created_at: '2023-07-18T00:00:00Z',
+    lastModified: '2024-01-14T11:10:00Z',
+    categories: ['LLM', 'Text Generation'],
+    detailed_description:
+      'Llama 2 is a collection of pretrained and fine-tuned generative text models.',
+  },
+  {
+    id: 'google/flan-t5-large',
+    modelId: 'google/flan-t5-large',
+    author: 'google',
+    downloads: 3200000,
+    likes: 1800,
+    tags: ['text2text-generation', 'flan', 't5'],
+    pipeline_tag: 'text2text-generation',
+    library_name: 'transformers',
+    created_at: '2022-10-20T00:00:00Z',
+    lastModified: '2024-01-05T16:25:00Z',
+    categories: ['Text Generation', 'Question Answering'],
+    detailed_description:
+      'FLAN-T5 models are based on the T5 architecture and fine-tuned on a collection of tasks.',
+  },
+];
+
+export const COMPREHENSIVE_AI_NEWS = [
+  {
+    id: 'news_1',
+    title: 'OpenAI Announces GPT-5 with Revolutionary Multimodal Capabilities',
+    description:
+      'The latest iteration of GPT shows unprecedented performance in reasoning, coding, and multimodal understanding across text, images, and audio.',
+    url: 'https://example.com/news/gpt5-announcement',
+    source: { name: 'AI Research Today' },
+    publishedAt: '2024-01-15T08:00:00Z',
+    author: 'Dr. Sarah Chen',
+    category: 'Product Launch',
+    tags: ['OpenAI', 'GPT-5', 'Multimodal', 'LLM'],
+    urlToImage: '/placeholder.svg?height=200&width=400',
+    content:
+      'OpenAI has unveiled GPT-5, marking a significant leap forward in artificial intelligence capabilities...',
+  },
+  {
+    id: 'news_2',
+    title: 'Google DeepMind Achieves Breakthrough in Protein Structure Prediction',
+    description:
+      'AlphaFold 3 demonstrates 99.2% accuracy in predicting complex protein interactions, revolutionizing drug discovery and biological research.',
+    url: 'https://example.com/news/alphafold3-breakthrough',
+    source: { name: 'Nature AI' },
+    publishedAt: '2024-01-14T14:30:00Z',
+    author: 'Prof. Michael Rodriguez',
+    category: 'Research',
+    tags: ['Google', 'DeepMind', 'AlphaFold', 'Protein Folding'],
+    urlToImage: '/placeholder.svg?height=200&width=400',
+    content:
+      "Google DeepMind's latest AlphaFold iteration represents a quantum leap in computational biology...",
+  },
+  {
+    id: 'news_3',
+    title: 'Meta Releases Code Llama 3: Open Source AI for Programming',
+    description:
+      'The new Code Llama 3 model shows significant improvements in code generation, debugging, and software engineering tasks.',
+    url: 'https://example.com/news/code-llama3-release',
+    source: { name: 'Tech Innovation Weekly' },
+    publishedAt: '2024-01-13T10:15:00Z',
+    author: 'Alex Thompson',
+    category: 'Open Source',
+    tags: ['Meta', 'Code Llama', 'Programming', 'Open Source'],
+    urlToImage: '/placeholder.svg?height=200&width=400',
+    content: "Meta's Code Llama 3 represents a major advancement in AI-assisted programming...",
+  },
+  {
+    id: 'news_4',
+    title: 'EU Passes Comprehensive AI Regulation Framework',
+    description:
+      'The European Union approves landmark legislation governing AI development, deployment, and ethical considerations across member states.',
+    url: 'https://example.com/news/eu-ai-regulation',
+    source: { name: 'Policy & Tech Review' },
+    publishedAt: '2024-01-12T16:45:00Z',
+    author: 'Emma Larsson',
+    category: 'Regulation',
+    tags: ['EU', 'Regulation', 'AI Policy', 'Ethics'],
+    urlToImage: '/placeholder.svg?height=200&width=400',
+    content:
+      'The European Union has enacted comprehensive AI regulation that will shape the future of AI development...',
+  },
+  {
+    id: 'news_5',
+    title: "Anthropic's Claude 3 Demonstrates Advanced Reasoning Capabilities",
+    description:
+      'Claude 3 shows remarkable performance in complex reasoning tasks, mathematical problem-solving, and ethical decision-making scenarios.',
+    url: 'https://example.com/news/claude3-reasoning',
+    source: { name: 'AI Safety Journal' },
+    publishedAt: '2024-01-11T12:20:00Z',
+    author: 'Dr. James Wilson',
+    category: 'Research',
+    tags: ['Anthropic', 'Claude', 'Reasoning', 'AI Safety'],
+    urlToImage: '/placeholder.svg?height=200&width=400',
+    content:
+      "Anthropic's Claude 3 represents a significant advancement in AI reasoning and safety alignment...",
+  },
+];
+
+export const COMPREHENSIVE_RESEARCH_PAPERS = [
+  {
+    id: '2401.12345',
+    title: 'Attention Is All You Need: Revisited with Modern Architectures',
+    summary:
+      'We revisit the seminal Transformer architecture and propose novel improvements that achieve state-of-the-art performance across multiple domains.',
+    authors: [
+      { name: 'Dr. Alice Johnson' },
+      { name: 'Prof. Bob Smith' },
+      { name: 'Dr. Carol Williams' },
+    ],
+    published: '2024-01-15T00:00:00Z',
+    updated: '2024-01-15T00:00:00Z',
+    categories: ['cs.AI', 'cs.LG'],
+    pdf_url: 'https://arxiv.org/pdf/2401.12345.pdf',
+    abs_url: 'https://arxiv.org/abs/2401.12345',
+    citations: 1250,
+    venue: 'NeurIPS 2024',
+    field: 'Natural Language Processing',
+  },
+  {
+    id: '2401.12346',
+    title: 'Scaling Laws for Large Language Models: A Comprehensive Analysis',
+    summary:
+      'This paper provides a thorough investigation of scaling laws for large language models, offering insights into optimal model sizing and training strategies.',
+    authors: [
+      { name: 'Dr. David Chen' },
+      { name: 'Prof. Emily Davis' },
+      { name: 'Dr. Frank Miller' },
+    ],
+    published: '2024-01-14T00:00:00Z',
+    updated: '2024-01-14T00:00:00Z',
+    categories: ['cs.LG', 'cs.CL'],
+    pdf_url: 'https://arxiv.org/pdf/2401.12346.pdf',
+    abs_url: 'https://arxiv.org/abs/2401.12346',
+    citations: 890,
+    venue: 'ICML 2024',
+    field: 'Machine Learning',
+  },
+  {
+    id: '2401.12347',
+    title: 'Multimodal Foundation Models: Bridging Vision and Language',
+    summary:
+      'We present a novel approach to multimodal learning that achieves unprecedented performance in vision-language understanding tasks.',
+    authors: [
+      { name: 'Dr. Grace Lee' },
+      { name: 'Prof. Henry Taylor' },
+      { name: 'Dr. Iris Brown' },
+    ],
+    published: '2024-01-13T00:00:00Z',
+    updated: '2024-01-13T00:00:00Z',
+    categories: ['cs.CV', 'cs.CL'],
+    pdf_url: 'https://arxiv.org/pdf/2401.12347.pdf',
+    abs_url: 'https://arxiv.org/abs/2401.12347',
+    citations: 567,
+    venue: 'CVPR 2024',
+    field: 'Computer Vision',
+  },
+];
