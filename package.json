@@ -51,14 +51,22 @@
     "@heroui/user": "2.2.24",
     "@react-aria/ssr": "3.9.10",
     "@react-aria/visually-hidden": "3.8.29",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/node-cron": "^3.0.11",
+    "axios": "^1.13.2",
+    "bcryptjs": "^3.0.3",
     "clsx": "2.1.1",
     "dotenv": "^17.2.3",
     "framer-motion": "11.18.2",
     "intl-messageformat": "10.7.16",
+    "mongoose": "^9.1.5",
     "next": "15.5.9",
     "next-themes": "0.4.6",
+    "node-cron": "^4.2.1",
     "react": "18.3.1",
-    "react-dom": "18.3.1"
+    "react-dom": "18.3.1",
+    "rss-parser": "^3.13.0",
+    "zod": "^4.3.5"
   },
   "devDependencies": {
     "@next/eslint-plugin-next": "15.5.9",
